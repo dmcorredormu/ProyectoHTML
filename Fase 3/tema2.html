@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Tema 2</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div id="principal">
+		<header>
+
+			<nav class="menu">
+				<img src="img/logo.png" width="250" height="80">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="temas.html">Temas</a>
+						<ul>
+							<ol><a href="tema1.html">Tema 1</a></ol>
+							<ol><a href="tema2.html">Tema 2</a></ol>
+						</ul>
+					</li>
+					<li><a href="recursos.html">Recursos digitales</a>
+						<ul>
+							<ol><a href="recurso1.html">Recurso 1</a></ol>
+							<ol><a href="recurso2.html">Recurso 2</a></ol>
+							
+						</ul>
+					</li>
+					<li><a href="Aprendizaje.html">Aprendizaje</a>
+						<ul>
+							<ol><a href="actividad1.html">Actividad 1</a></ol>
+							<ol><a href="actividad2.html">Actividad 2</a></ol>
+						
+							</ul>
+					</li>
+					<li><a href="auctor.html">Autor</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="categorias">
+			<section class="">
+				<h3>Etiquetas, atributos y valores</h3><br>
+
+			<div class="slidertema1">
+				<ul>
+					<li><img src="img/tema21.png" width="500" height="250" alt=""></li>
+					<li><img src="img/tema24.png" width="500" height="250" alt=""></li>
+					<li><img src="img/tema21.png" width="500" height="250" alt=""></li>
+					<li><img src="img/tema24.png" width="500" height="250" alt=""></li>
+				</ul>
+			</div>
+
+			<div class="slidertema1">
+				<center>
+				<ul>
+
+					<li><cite><i>Clic,  A. (s.f). Introducción a HTML (II). (Fotografía).  Recuperado de <a href="https://www.aulaclic.es/html/t_1_2.htm">https://www.aulaclic.es/html/t_1_2.htm</a></i></cite></li>
+					<li><cite><i>Jose,  J. (2015). HTML y CSS. (Fotografía).  Recuperado de <a href="https://juanjosedmi.wordpress.com/html-y-css/">https://juanjosedmi.wordpress.com/html-y-css/</a></i></cite></li>
+					<li><cite><i>Clic,  A. (s.f). Introducción a HTML (II). (Fotografía).  Recuperado de <a href="https://www.aulaclic.es/html/t_1_2.htm">https://www.aulaclic.es/html/t_1_2.htm</a></i></cite></li>
+					<li><cite><i>Jose,  J. (2015). HTML y CSS. (Fotografía).  Recuperado de <a href="https://juanjosedmi.wordpress.com/html-y-css/">https://juanjosedmi.wordpress.com/html-y-css/</a></i></cite></li>
+				</ul>
+				</center>
+			</div>
+			<p></p><br><br>
+        <p>Las <strong>etiquetas</strong> son la estructura básica del HTML. Estas etiquetas o <em>tags</em> se componen y contienen otras propiedades, como son los <strong>atributos</strong> y el <strong>contenido</strong>.</p><br>
+
+<p><strong>HTML</strong> define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas. Sin embargo, una etiqueta por sí sola a veces no contiene la suficiente información para estar completamente definida. Para ello contamos con los <strong>atributos</strong>: pares <em>nombre-valor</em> separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento. El valor puede estar encerrado entre "comillas dobles" o 'simples'. Existen, también, algunos atributos que afectan al elemento por su presencia en la etiqueta de inicio, como puede ser el atributo <code>ismap</code> para el elemento <code>&lt;img&gt;</code>.</p><br>
+
+<p>Esta sería la <strong>estructura general de una línea de código en lenguaje HTML</strong>:</p><br>
+
+<div class="estilo.tabla">
+	<center>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><pre class="html5"><span class="sc2">&lt;tag attribute1<span class="sy0">=</span><span class="st0">&quot;value1&quot;</span> attribute2<span class="sy0">=</span><span class="st0">&quot;value2&quot;</span>&gt;</span></strong><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">content<TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><span class="sc2">&lt;<span class="sy0">/</span>tag&gt;</span></pre></strong></TH></TR>
+		</TABLE>
+	</center>
+</div>
+
+<p>O lo que es lo mismo, con un ejemplo:</p><br>
+
+<div>
+	<CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><pre class="html5"><span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">&quot;http://www.enlace.com&quot;</span> <span class="kw3">target</span><span class="sy0">=</span><span class="st0">&quot;_blank&quot;</span>&gt;</span></strong><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejemplo de enlace</TD><TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span></pre></strong></TD></TR>
+		</TABLE><br>
+	</CENTER>
+</div>
+
+<p>Donde:</p><br>
+
+<div>
+
+	<CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>&lt;a&gt;</code></strong><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">es la etiqueta o </TD><TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><em>tag</em></strong></TD><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">inicial y </TD><TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><code>&lt;/a&gt;</code></strong></TD><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white"> la etiqueta de cierre.</TD></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>href</code> y <code>target</code></strong><TD COLSPAN=2 style="padding: 15px;" ALIGN=CENTER BGCOLOR="white"> son los atributos.</TD><TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong>
+			<code>http://www.enlace.com</code> y <code>_blank</code></TD><TD COLSPAN=2 style="padding: 15px;" ALIGN=CENTER BGCOLOR="white"> son las variables.</TD></strong></TR>
+		</TABLE>
+	</CENTER>
+
+</div>
+
+
+<p>Aunque también existen elementos vacíos que no necesitan <em>tag</em> de cierre, cuya estructura sería ésta:</p><br>
+
+<div class="code html">
+	<CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH style="padding: 15px;"><strong><pre class="html5"><span class="sc2">&lt;tag attribute1<span class="sy0">=</span><span class="st0">&quot;value1&quot;</span> attribute2<span class="sy0">=</span><span class="st0">&quot;value2&quot;</span> <span class="sy0">/</span>&gt;</span></pre></strong></TH></TR>
+		</TABLE>
+	</CENTER>
+</div>
+
+<p>Estos elementos vacíos no constan de contenido, como por ejemplo, los <em>tags</em> <code>&lt;br&gt;</code> o <code>&lt;img&gt;</code>.</p><br>
+
+<h2 id="tipos-de-atributos">3.1 Tipos de atributos</h2><br>
+
+<p>Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o casi todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:</p><br>
+
+<div>
+	<ol style= "list-style-type: square">
+		<li>Atributos <strong>básicos</strong></li>
+		<li>Atributos de <strong>internacionalización</strong></li>
+		<li>Atributos de <strong>eventos</strong></li>
+		<li>Atributos de <strong>foco</strong></li>
+	</ol><br>
+</div>
+
+<h3 id="atributos-basicos">3.1.1 Atributos básicos</h3><br>
+
+<p>Los atributos básicos se utilizan en la mayoría de etiquetas <strong>HTML</strong> y <strong>XHTML</strong>, aunque adquieren mayor sentido cuando se utilizan hojas de estilo en cascada (<strong>CSS</strong>):</p><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>id="texto"</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Establece un indicador único a cada elemento</TD></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>class="texto"</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Establece la clase CSS que se aplica a los estilos del elemento</TD></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>style="texto"</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Aplica de forma directa los estilos CSS de un elemento</TD></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>title="texto"</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Establece el título del elemento (Mejora la accesibilidad)</td></TD></TR>
+
+
+		</TABLE>
+	</CENTER>
+</div>
+
+
+<h3 id="atributos-de-internacionalizacion-o-i18n">3.1.2 Atributos de internacionalización o <em>i18n</em></h3><br>
+
+<p>Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios <strong>idiomas</strong> y las que quieran indicar de forma explícita el idioma de sus contenidos:</p><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>lang="codigo"</TH></code>
+ 			<TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Indica el idioma del elemento</TD></TR>
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>xml:lang="codigo"</TD></code><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Indica el idioma del elemento, aunque tiene más prioridad que el atributo anterior y es obligatorio si se incluye el atributo <code>lang</code></TD></TR>
+
+ 			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>dir</TD></code><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Indica la dirección del texto</TD></TR><br>
+
+
+		</TABLE>
+	</CENTER>
+</div>
+
+
+<h3 id="atributos-de-eventos">3.1.3 Atributos de eventos</h3><br>
+
+<p>Estos atributos se utilizan en las páginas web que incluyen código <strong>JavaScript</strong> para realizar acciones dinámicas sobre los elementos de la página.</p><br>
+
+<p><strong>Pueden ser utilizados por: <em>todos los elementos</em></strong></p><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onclick</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se realiza un clic sobre el elemento</TD></TR>
+
+ 			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>ondblclick</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se realiza un doble clic sobre el elemento</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onmousedown</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se detecta el botón pulsado del ratón</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onmouseup</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se detecta que se ha soltado el botón del ratón</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onmousemove</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se detecta el movimiento del ratón sobre el elemento</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onmouseout</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando el ratón abandona el elemento</td>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onmouseover</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se detecta que el ratón se sitúa sobre el elemento</TH></TR>
+ 		</TABLE>
+ 	</CENTER>
+
+</div>
+
+
+<p><strong>Pueden ser utilizados por: <code>&lt;body&gt;</code></strong></p><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onload</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se carga el documento</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onunload</code><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se abandona el documento</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onresize</code><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se ha modificado el tamaño de la ventana del navegador</TH></TR>
+		</TABLE>
+ 	</CENTER>
+
+</div>
+
+
+<p><strong>Pueden ser utilizados por: <em>elementos de formulario</em> y <code>&lt;body&gt;</code></strong></p><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onkeydown</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se detecta que la tecla esta pulsada</TH></TR>
+			 <TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onkeyup</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se detecta que se ha soltado la tecla pulsada</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>onkeypress</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando se pulsa una tecla</TH></TR>
+
+		</TABLE>
+ 	</CENTER>
+</div>
+
+
+<p><strong>Pueden ser utilizados por: <em>varios</em></strong></p><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</strong></TH><TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong> Elementos que pueden usarlo</strong></TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>onblur</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando el elemento pierde el foco bien sea a través del ratón o por navegación tabulada</TH>
+
+ 			<TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><code>&lt;button&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;body&gt;</code></strong></TH></TR>
+
+  			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>onfocus</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando el elemento obtiene el foco bien sea a través del ratón o por navegación tabulada</TH>
+  			<TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><code>&lt;button&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;body&gt;</code></TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>onchange</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando el valor de un control ha sido modificado</TH>
+  			<TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code></strong></TH></TR>
+  			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>onreset</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando el formulario es restablecido a sus valores por defecto</TH>
+ 			 <TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><code>&lt;form&gt;</code></TH></TR></TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>onselect</code></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando un usuario selecciona texto en un campo de texto</TH>
+  			<TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code></TH></TR></TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>onsubmit</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Ejecuta la acción cuando el formulario es enviado</TH>
+  			<TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><code>&lt;form&gt;</code></TH></TR></TH></TR>
+
+		</TABLE>
+ 	</CENTER>
+ </div>
+
+
+<h3 id="atributos-de-foco">3.1.4 Atributos de foco</h3><br>
+
+<p>Se le denomina <strong>foco</strong> o <em>focus</em>, cuando un control o elemento del documento ha sido seleccionado. Cuando ese elemento deja de estar seleccionado, "pierde el foco" y es el nuevo elemento seleccionado el que se dice que tiene "el foco".</p><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>accesskey="letra"</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Establece una tecla de acceso rápido a un elemento HTML</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>tabindex="numero"</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Establece la posición del elemento en el orden de tabulación de la página (valor entre 0 y 32.767)</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>onfocus</code>, <code>onblur</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco</TH></TR>
+
+		</TABLE>
+ 	</CENTER>
+ </div>
+
+
+<h2 id="elementos">3.2 Elementos</h2>
+
+<p>Además de etiquetas y atributos, HTML define el término <strong>elemento</strong> para referirse a las partes que componen los documentos HTML. Como ya hemos mencionado antes, la estructura general de una línea de código en lenguaje HTML sería ésta:</p><br>
+
+
+<div class="estilo.tabla">
+	<center>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><pre class="html5"><span class="sc2">&lt;tag attribute1<span class="sy0">=</span><span class="st0">&quot;value1&quot;</span> attribute2<span class="sy0">=</span><span class="st0">&quot;value2&quot;</span>&gt;</span></strong><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">content<TD ALIGN=CENTER BGCOLOR="#ADD8E6"><strong><span class="sc2">&lt;<span class="sy0">/</span>tag&gt;</span></pre></strong></TH></TR>
+		</TABLE>
+	</center>
+</div>
+
+<p>El lenguaje HTML clasifica a todos los elementos en dos grupos: <strong>elementos en línea</strong> o <em>inline elements</em> y <strong>elementos en bloque</strong> o <em>block elements</em>.</p><br>
+
+<p>La diferencia entre ambos viene dada por el <strong>modelo de contenido</strong>, por el <strong>formato</strong> y la <strong>dirección</strong>. La principal diferencia entre los dos tipos de elementos es la forma en la que ocupan el espacio disponible en la página: los <strong>elementos en bloque</strong> siempre empiezan en una nueva línea y ocupan todo el espacio disponible hasta el final de la línea, mientras que los <strong>elementos en línea</strong> sólo ocupan el espacio necesario para mostrar sus contenidos.</p><br>
+
+<h3 id="elementos-en-linea-definidos-por-html">3.2.1 Elementos en línea (definidos por HTML)</h3><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>a</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Define un anchor (anclaje o hipervínculo)</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>abbr</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Marca las abreviaturas del texto y proporciona el significado de esas abreviaturas</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>acronym</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Marca las siglas o acrónimos del texto y proporciona el significado de esas siglas</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>b</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Indica que el texto debe ser representado e  <em>bold</em> (o negrita)</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>basefont</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Permite cambiar algunas propiedades del texto</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>bdo</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Anulación del algoritmo bidireccional (en referencia a la dirección de la escritura)</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>big</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Muestra el texto marcado con un tamaño de fuente más grande</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>br </code><em>line break</em></strong></TH> <TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white"> ruptura (o salto) de línea</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>cite</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Se emplea para marcar una cita o una referencia a otras fuentes</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>code</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Delimita el texto considerado un fragmento de código fuente</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>dfn</code></strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Marca las definiciones de ciertos términos y proporciona el significado de éstos</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>em</code><em>emphasis</em> </strong></TH><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white"> énfasis</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>font</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Indica el tamaño, color, o fuente del texto que contiene</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>i</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Muestra el texto marcado con un estilo en <em>cursiva</em> o itálica</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>img</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Imagen</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>input</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Posibilita y define la introducción de datos en el formulario</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>kbd</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Indicar al usuario el texto que debe introducir</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>label</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Asocia un rótulo o etiqueta a un campo de un formulario</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>q</code><em>short quotations</em> <TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white"> cita corta</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>s</code><em>strike-through</em> <TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white"> tachado</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>samp</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Sirve identificar una muestra de los caracteres que forman la salida o el resultado de algún proceso</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>select</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Crea un contenedor mediante el cual el usuario puede seleccionar de una lista de opciones</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>small</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Aplica al texto marcado un tamaño de fuente más pequeño</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>span</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Es un contenedor genérico en línea. Sirve para para aplicar estilo al texto o agrupar elementos en línea</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>strike</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Muestra el texto tachado con una linea horizontal</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>strong</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Marca con especial énfasis las partes más importantes de un texto</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>sub</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Crea un subíndice posicionando el texto marcado por debajo de la linea</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>sup</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Crea un superíndice posicionando el texto marcado por encima de la linea</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>textarea</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Crea un control de entrada de texto multilínea</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>tt</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Representa como texto de teletipo o ancho fijo</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>u</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Muestra el texto subrayado</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>var</code><TD  style="padding:8px;" ALIGN=CENTER BGCOLOR="white">Marca variables de programas y similares</TH></TR>
+
+		</TABLE>
+	</center>
+</div>
+
+
+<h3 id="elementos-en-bloque-definidos-por-html">3.2.2 Elementos en bloque (definidos por HTML)</h3><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="800px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 13px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>address</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Contiene la información de contacto con los autores del documento</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>blockquote</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Indica que el texto que encierra es una cita textual de otro texto externos</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>center</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea una caja en bloque con el contenido centrado</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>dir</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea listas multicolumna de directorios</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>div</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Es un elemento en bloque genérico y sirve para crear secciones o agrupar contenidos</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>dl</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea una lista de definiciones</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>fieldset</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Permite organizar en grupos los campos de un formulario</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>form</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Actúa como contenedor de controles. Representa un formulario</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea un encabezado o título de primer, segundo, tercer, cuarto, quinto o sexto nivel para una sección del documento respectivamente</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>hr</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea una linea de separación horizontal</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>isindex</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea un control de entrada de texto de una línea</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>menu</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea un menú</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>noframes</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">(sin marcos) - aporta contenidos alternativos a los marcos</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>nos-cript</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Contenedor de contenido alternativo para la representación no basada en <em>scripts</em></TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>ol</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea una lista ordenada</TH></TR>
+
+				<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>p</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Párrafo</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>pre</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Permite que el texto conserve el formato y sea mostrado tal cual</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>table</code><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Tabla</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>ul</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Crea una lista no ordenada</TH></TR>
+			
+		</TABLE>
+ 	</CENTER>
+
+<h3 id="mas-elementos-considerados-en-bloque">3.2.3 Más elementos considerados en bloque</h3><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="600px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 13px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>dd</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Descripción de una definición</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>dt</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Término definido</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>li</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Objeto de lista</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>tbody</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Cuerpo de tabla</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>td</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Celda de datos de una tabla</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>tfoot</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Pie de tabla</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>th</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Celda de encabezado de tabla</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>thead</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Cabecera de tabla</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><code>tr</code></TH><TD  style="padding: 10px;" ALIGN=CENTER BGCOLOR="white">Fila de una tabla</TH></TR>
+
+
+		</TABLE>
+ 	</CENTER>
+ 
+</div>
+
+
+<h3 id="elementos-que-pueden-ser-en-linea-y-en-bloque">3.2.4 Elementos que pueden ser en línea y en bloque</h3><br>
+
+<div>
+
+    <CENTER>
+		<TABLE id="caja" BORDER=10 WIDTH="700px" bordercolor="#006699">
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH COLSPAN=2 style="padding: 15px;"><strong>Atributo Descripción</TH></TR>
+		
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>button</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Botón</TH></TR>
+
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>del</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Texto borrado</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>iframe</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Subventana en línea</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>ins</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Texto insertado</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>map</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Mapa de imágenes en el lado del cliente</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>object</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Objeto genérico incluído</TH></TR>
+			<TR ALIGN=CENTER BGCOLOR="#ADD8E6"><TH><strong><code>script</code></strong></TH><TD  style="padding: 15px;" ALIGN=CENTER BGCOLOR="white">Sentencias de <em>script</em></TH></TR>
+
+		</TABLE>
+
+		<h1> Referencia bibliografica</h1><br>
+
+				<cite><i> Garro,  A. (s.f). CAPÍTULO 3 ETIQUETAS, ATRIBUTOS Y ELEMENTOS. s.l. XHTML. Recuperado de <a href="https://www.arkaitzgarro.com/xhtml/capitulo-3.html">https://www.arkaitzgarro.com/xhtml/capitulo-3.html</a> </i></cite>
+ 	</CENTER>
+</div>
+
+	</section>
+
+		</section><!--/categorias-->
+	</div>
+			<footer>
+			<nav>
+
+				Copyright © Jun-2021 - Designhtml.com · Web diseñada con HTML<br>dmcorredormu@unadvirtual.edu.co<br>  Skype:dicadillacs
+ 
+			</nav>
+		</footer>
+</body>
+</html>
+
