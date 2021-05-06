@@ -452,6 +452,27 @@ input {
 
 }
 
+#actividad1{
+	width: 855px;
+	height: 500px;
+	float: right;
+	text-align: justify;
+	background: #c6d1d3;
+	border:2px solid #006699;
+	margin-top: 20px;
+	padding: 20px;	
+}
+#actividad2{
+	width: 855px;
+	height: 550px;
+	float: right;
+	text-align: justify;
+	background: #c6d1d3;
+	border:2px solid #006699;
+	margin-top: 20px;
+	padding: 20px;	
+}
+
 #iframe{
 	width: 820px;
 	height: 210px;
